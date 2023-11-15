@@ -24,3 +24,15 @@ Real life Example of Array
          
 ===============================================================================================================
 
+
+Array Capacity
+===============================================================================================================
+
+Remembering that indexing starts at 0, 
+we can only insert items at 
+dvdCollection[0], dvdCollection[1], dvdCollection[2], dvdCollection[3], dvdCollection[4], and dvdCollection[5]. 
+
+Trying to put an element anywhere else, 
+such as
+dvdCollection[-3], dvdCollection[6], or dvdCollection[100] 
+will cause your code to crash with an `ArrayIndexOutOfBoundsException!`
